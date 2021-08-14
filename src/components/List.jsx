@@ -29,9 +29,6 @@ const List = () => {
             </div>
           );
         })}
-        {data.forEach((doc) => {
-          console.log(doc.data());
-        })}
       </section>
     );
   }
